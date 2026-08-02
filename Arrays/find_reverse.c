@@ -10,6 +10,7 @@ int main() {
         temp = arr[i];
         arr[i] = arr[last];
         arr[last] = temp;
+        last--;
     }
     printf("Reversed array: \n");
     for (i=0; i<n; i++) {
