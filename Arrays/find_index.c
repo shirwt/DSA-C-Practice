@@ -9,7 +9,7 @@ int main() {
 
     for (int i=0; i<n; i++) {
         if (arr[i] == target) {
-            printf("%d", i);
+            printf("%d is present at index %d", target, i);
             return 1;
         }
         
