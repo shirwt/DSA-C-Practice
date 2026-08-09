@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+//reversing array using an extra array
 #include <stdio.h>
 int reverse(int arr[], int n, int arr_2[])
 {
